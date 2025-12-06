@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive ecommerce website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">لوله اتصالات خدادادی</a>
+
+    <nav class="navbar">
+        <a href="#home">خانه</a>
+        <a href="#products">محصولات</a>
+        <a href="#featured">ویژه</a>
+        <a href="#review">نظرات</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>زانو گردان</span>
+                <h3></h3>
+                <p></p>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+            <div class="image">
+                <img src="https://image.torob.com/base/images/w4/VG/w4VGpwnQFHtQWZyD.jpg_/280x280.jpg" class="shoe" alt="">
+                <img src="images/home-text-1.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>کلاهک h</span>
+                <h3></h3>
+                <p></p>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+            <div class="image">
+                <img src="https://arnavent.com/wp-content/uploads/2024/10/H-%DA%A9%D9%84%D8%A7%D9%87%DA%A9-%D8%A7%DA%86.png" class="shoe" alt="">
+                <img src="images/home-text-2.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>بوشن برقی</span>
+                <h3></h3>
+                <p></p>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+            <div class="image">
+                <img src="https://barqasa.com/media/catalog/product/cache/36af82cdefa59480195ce4471d54e133/9/-/9-2_1.webp" class="shoe" alt="">
+                <img src="images/home-text-3.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>تحویل سریع</h3>
+            <p>ما بسیار تحویل سریعی داریم</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>5 روز تعویض</h3>
+            <p>شما 5 روز وقت دارید محصول خود را تعویض کنید</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>پشتیبانی 24 * 7</h3>
+            <p>هر وقت که شما به شماره ی 09126708501زنگ بزنید پاسخگو است</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> آخرین <span>محصولات</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://caspianpolymer.com/wp-content/uploads/2023/09/%D9%84%D9%88%D9%84%D9%87-P.P-%D8%AC%D8%AF%DB%8C%D8%AF-2.jpg" alt="">
+            <div class="content">
+                <h3>لوله استخری</h3>
+                <div class="price"> <span></span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://azaretesal.com/wp-content/uploads/2024/11/%D9%84%D9%88%D9%84%D9%87-%D8%A8%D8%B1%D9%82%DB%8C%D8%8C-%D9%84%D9%88%D9%84%D9%87-%D9%BE%D9%84%DB%8C%DA%A9%D8%A7-%D8%A8%D8%B1%D9%82%DB%8C.jpg" alt="">
+            <div class="content">
+                <h3>لوله برقی</h3>
+                <div class="price"> <span></span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWhG_GWw9waX7UmKDuY5l6bmjdsAvi7bc0HQ&s" alt="">
+            <div class="content">
+                <h3>شیر یک طرفه</h3>
+                <div class="price"> <span></span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://image.torob.com/base/images/KU/kU/KUkUsaawm9IWQPGi.jpg_/0x176.jpg" alt="">
+            <div class="content">
+                <h3>سه راه خم</h3>
+                <div class="price"> <span></span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuz1Fap2tcTocWZU-B6fKS2YqkxK2rV5M3Xw&s" alt="">
+            <div class="content">
+                <h3>در پوش توکار</h3>
+                <div class="price"> <span></span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVbj6XHOz-05aWGw7eH7wLkwDjgtQabhql4Q&s" alt="">
+            <div class="content">
+                <h3>تبدیل غیر هم مرکز</h3>
+                <div class="price"> <span></span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">افزودن به سبد خرید</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> محصولات <span>برجسته</span></h1>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/f-img-1.1.png" class="featured-image-1" alt="">
+                <img src="images/f-img-1.2.png" class="featured-image-1" alt="">
+                <img src="images/f-img-1.3.png" class="featured-image-1" alt="">
+                <img src="https://radasanat.com/wp-content/uploads/2021/08/flange.jpg" class="featured-image-1" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/f-img-1.1.png" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>فلنچ upvc</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p></p>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn">افزودن به سبد خرید</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/f-img-2.1.png" class="featured-image-2" alt="">
+                <img src="images/f-img-2.2.png" class="featured-image-2" alt="">
+                <img src="images/f-img-2.3.png" class="featured-image-2" alt="">
+                <img src="https://loolino.com/Products/images/farsi/thumbs/%D9%84%D9%88%D9%84%D9%87-%D9%81%D8%A7%D8%B6%D9%84%D8%A7%D8%A8-%DA%86%D8%B3%D8%A8%DB%8C-%D8%B3%D8%A7%DB%8C%D8%B2-%D9%BE%D9%84%DB%8C%D9%85%D8%B1-%DA%AF%D9%84%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-101001011_0.jpg" class="featured-image-2" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/f-img-2.1.png" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>لوله فاضلابی چسبی</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p></p>
+            <div class="price"> <span></span></div>
+            <a href="#" class="btn">افزودن به سبد خرید</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/f-img-3.1.png" class="featured-image-3" alt="">
+                <img src="images/f-img-3.2.png" class="featured-image-3" alt="">
+                <img src="images/f-img-3.3.png" class="featured-image-3" alt="">
+                <img src="https://www.technopipe.ir/wp-content/uploads/2023/02/zanoo45polika.jpg" class="featured-image-3" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/f-img-3.1.png" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>زانوی 45 درجه</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p></p>
+            <div class="price"> <span></span></div>
+            <a href="#" class="btn">افزودن به سبد خرید</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> بازخورد <span>مشتریان</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3></h3>
+            <p>تحویل سریع بسیار خوب است</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3></h3>
+            <p>محصولات کیفیت بالایی دارند</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3></h3>
+            <p>یکی از ویژگی های خوب این مغازه5 روز تعویض است.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>لیست قیمت</h3>
+        <p>برای دریافت قیمت ها به شماره ی 09369225711تماس حاصل فرمایید</p>
+        
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> فروشگاه </h3>
+            <a href="#">البرز فردیس بلوار سعدی گلستان 12</a>
+            
+        </div>
+<div class="box">
+    <h3>راه ها ارتباط با ما</h3>
+    <a href="#">شماره تلفن=09369225711</a>
+    <a herf="#">ادرس اینستاگرام @khodadadi_distribution</a>
+    <a herf="#">ادرس تلگرام khodadadi_distribution</a>
+    <a herf="#">ادس ایمیل =Jamshidkhodadadi230@gmail.com</a>
+    </div>
+    
+
+    </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
